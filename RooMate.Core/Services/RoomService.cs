@@ -6,10 +6,7 @@ namespace RooMate.Core.Services
 {
     public class RoomService : IRoomService
     {
-        public IRoom GetRoom()
-        {
-            throw new System.NotImplementedException();
-        }
+        public IRoom GetRoom(IGraphSchedule schedule) =>  Room.Create(schedule); 
 
         public IList<IRoom> GetRooms()
         {
