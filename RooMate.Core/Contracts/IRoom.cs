@@ -8,7 +8,7 @@ namespace RooMate.Core.Contracts
         string RoomId { get;  }
         int Capacity { get;  }
         DateTime NextAvailableTime { get;  }
-        bool IsAvailable { get; }
+        bool IsAvailable(DateTime start, double length);
         IRoomSchedule Schedule { get; }
         
     }

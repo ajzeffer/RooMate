@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/RooMate.Core.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RooMate.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/GraphClient.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleTime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/RooMate.Core.Tests.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/RooMate.Core.Tests.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Class1.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/RooMate.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/RooMate.Infrastructure.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,130 +29,148 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Class1.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-              <folding>
-                <marker date="1567168490638" expanded="true" signature="47:87" ph="{...}" />
-                <marker date="1567168490638" expanded="true" signature="73:85" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-              <folding>
-                <marker date="1567169808481" expanded="true" signature="73:598" ph="{...}" />
-                <marker date="1567169808481" expanded="true" signature="109:169" ph="{...}" />
-                <marker date="1567169808481" expanded="true" signature="211:269" ph="{...}" />
-                <marker date="1567169808481" expanded="true" signature="308:463" ph="{...}" />
-                <marker date="1567169808481" expanded="true" signature="507:590" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/Room.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+            <state relative-caret-position="294">
+              <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
               <folding>
-                <marker date="1567170196754" expanded="true" signature="6:79" ph="..." />
-                <marker date="1567170196754" expanded="true" signature="110:670" ph="{...}" />
-                <marker date="1567170196754" expanded="true" signature="146:668" ph="{...}" />
-                <marker date="1567170196754" expanded="true" signature="211:329" ph="{...}" />
+                <marker date="1567518687861" expanded="false" signature="6:79" ph="..." />
+                <marker date="1567518687861" expanded="true" signature="110:1686" ph="{...}" />
+                <marker date="1567518687861" expanded="true" signature="146:1684" ph="{...}" />
+                <marker date="1567518687861" expanded="true" signature="211:412" ph="{...}" />
+                <marker date="1567518687861" expanded="true" signature="329:401" ph="{...}" />
+                <marker date="1567518687861" expanded="true" signature="695:1041" ph="{...}" />
+                <marker date="1567518687861" expanded="true" signature="820:1004" ph="{...}" />
+                <marker date="1567518687861" expanded="false" signature="1145:1468" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+              <folding>
+                <marker date="1567514995149" expanded="false" signature="6:118" ph="..." />
+                <marker date="1567514995149" expanded="true" signature="149:633" ph="{...}" />
+                <marker date="1567514995149" expanded="true" signature="197:631" ph="{...}" />
+                <marker date="1567514995149" expanded="true" signature="337:625" ph="{...}" />
+                <marker date="1567514995149" expanded="true" signature="406:483" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+              <folding>
+                <marker date="1567514930564" expanded="false" signature="6:65" ph="..." />
+                <marker date="1567514930564" expanded="true" signature="96:663" ph="{...}" />
+                <marker date="1567514930564" expanded="true" signature="152:661" ph="{...}" />
+                <marker date="1567514930564" expanded="true" signature="387:655" ph="{...}" />
+                <marker date="1567514930564" expanded="true" signature="450:644" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+            <state relative-caret-position="176">
+              <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
               <folding>
-                <marker date="1567170466544" expanded="true" signature="6:63" ph="..." />
-                <marker date="1567170466544" expanded="true" signature="123:448" ph="{...}" />
-                <marker date="1567170466544" expanded="true" signature="169:446" ph="{...}" />
-                <marker date="1567170466544" expanded="true" signature="206:282" ph="{...}" />
-                <marker date="1567170466544" expanded="true" signature="322:440" ph="{...}" />
-                <marker date="1567170466544" expanded="true" signature="380:429" ph="{...}" />
+                <marker date="1567516943522" expanded="false" signature="6:126" ph="..." />
+                <marker date="1567516943522" expanded="true" signature="159:555" ph="{...}" />
+                <marker date="1567516943522" expanded="true" signature="210:553" ph="{...}" />
+                <marker date="1567516943522" expanded="true" signature="429:547" ph="{...}" />
+                <marker date="1567516943522" expanded="true" signature="487:536" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs">
+        <entry file="file://$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="342">
+              <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
-                <marker date="1567170161436" expanded="true" signature="47:314" ph="{...}" />
-                <marker date="1567170161436" expanded="true" signature="76:312" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="6:248" ph="..." />
+                <marker date="1567517942850" expanded="true" signature="287:1630" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="323:1628" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="400:1381" ph="{...}" />
+                <marker date="1567517942850" expanded="false" signature="532:1100" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="611:1086" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="675:1068" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="755:867" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="921:1033" ph="{...}" />
+                <marker date="1567517942850" expanded="true" signature="1465:1622" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs">
+        <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="304">
+              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding>
-                <marker date="1567169968625" expanded="true" signature="67:179" ph="{...}" />
-                <marker date="1567169968625" expanded="true" signature="104:177" ph="{...}" />
+                <marker date="1567517860394" expanded="false" signature="6:79" ph="..." />
+                <marker date="1567517860394" expanded="true" signature="110:809" ph="{...}" />
+                <marker date="1567517860394" expanded="true" signature="166:807" ph="{...}" />
+                <marker date="1567517860394" expanded="true" signature="343:545" ph="{...}" />
+                <marker date="1567517860394" expanded="true" signature="406:534" ph="{...}" />
+                <marker date="1567517860394" expanded="true" signature="628:801" ph="{...}" />
+                <marker date="1567517860394" expanded="true" signature="691:790" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/44/2e1d1d72/Array.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-              <folding>
-                <marker date="1567170007470" expanded="true" signature="67:176" ph="{...}" />
-                <marker date="1567170007470" expanded="true" signature="103:174" ph="{...}" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/d4/a31c3413/MethodBase.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding>
-                <marker date="1567169103056" expanded="false" signature="6:26" ph="..." />
-                <marker date="1567169103056" expanded="true" signature="56:162" ph="{...}" />
-                <marker date="1567169103056" expanded="true" signature="85:160" ph="{...}" />
-                <marker date="1567169103056" expanded="true" signature="134:154" ph="{...}" />
-              </folding>
+            <state relative-caret-position="163">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98BF08E0-5E67-4E8E-8F12-6C6BE0F4299B/fd/7a5398dd/Expression.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="154">
+              <caret line="3570" column="6" selection-start-line="3570" selection-start-column="6" selection-end-line="3570" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="104">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
               <folding>
-                <marker date="1567169619748" expanded="true" signature="32:341" ph="{...}" />
-                <marker date="1567169619748" expanded="true" signature="73:211" ph="{...}" />
-                <marker date="1567169619748" expanded="true" signature="251:339" ph="{...}" />
+                <marker date="1567516754475" expanded="true" signature="6:69" ph="..." />
+                <marker date="1567516754475" expanded="true" signature="128:361" ph="{...}" />
+                <marker date="1567516754475" expanded="true" signature="178:359" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -155,15 +182,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/GraphClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleTime.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98BF08E0-5E67-4E8E-8F12-6C6BE0F4299B/fd/7a5398dd/Expression.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/d4/a31c3413/MethodBase.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/44/2e1d1d72/Array.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/RooMate.Infrastructure/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,13 +210,23 @@
         <option value="$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs" />
         <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IGraphClient.cs" />
         <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs" />
-        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" />
         <option value="$PROJECT_DIR$/RooMate.Core/Contracts/Domain/Room.cs" />
-        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" />
-        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" />
         <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs" />
-        <option value="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Infrastructure/GraphClient.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Models/GraphSchedule.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleTime.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleItem.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/GraphClient.cs" />
         <option value="$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" />
+        <option value="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" />
       </list>
     </option>
   </component>
@@ -197,7 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -205,17 +252,27 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="RooMate.Core" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="RooMate" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="RooMate" type="34e6ba20:FileSystemExplorerNode" />
+              <item name="RooMate.Core" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +293,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Launch Settings Profile.RooMate.Core">
     <configuration name="RooMate.Core" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RooMate.Core/RooMate.Core.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
@@ -264,11 +321,13 @@
       <workItem from="1567167770429" duration="83000" />
       <workItem from="1567167927935" duration="39000" />
       <workItem from="1567168171915" duration="2772000" />
+      <workItem from="1567180567285" duration="241000" />
+      <workItem from="1567511943466" duration="6655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3521000" />
+    <option name="totallyTimeSpent" value="10417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -282,25 +341,26 @@
   <component name="ToolWindowManager">
     <frame x="153" y="43" width="1400" height="987" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26435935" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27172312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.32992035" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3993174" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32992035" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.49829352" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32992035" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.2764505" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,16 +382,67 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs</url>
+          <line>17</line>
+          <properties documentPath="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" initialLine="17">
+            <startOffsets>
+              <option value="423" />
+            </startOffsets>
+            <endOffsets>
+              <option value="469" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/RooMate.Core/Domain/Room.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" initialLine="10">
+            <startOffsets>
+              <option value="220" />
+            </startOffsets>
+            <endOffsets>
+              <option value="221" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs">
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Program.cs" />
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomManager.cs" />
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <marker date="1567170161436" expanded="true" signature="47:314" ph="{...}" />
+            <marker date="1567170161436" expanded="true" signature="76:312" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
-            <marker date="1567169103056" expanded="false" signature="6:26" ph="..." />
+            <marker date="1567512200206" expanded="true" signature="6:69" ph="..." />
+            <marker date="1567512200206" expanded="true" signature="103:239" ph="{...}" />
+            <marker date="1567512200206" expanded="true" signature="143:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core.Tests/UnitTest1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1567169103056" expanded="true" signature="6:26" ph="..." />
             <marker date="1567169103056" expanded="true" signature="56:162" ph="{...}" />
             <marker date="1567169103056" expanded="true" signature="85:160" ph="{...}" />
             <marker date="1567169103056" expanded="true" signature="134:154" ph="{...}" />
@@ -339,35 +450,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Core/Program.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Class1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-          <folding>
-            <marker date="1567168490638" expanded="true" signature="47:87" ph="{...}" />
-            <marker date="1567168490638" expanded="true" signature="73:85" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="22">
+          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
           <folding>
             <marker date="1567169619748" expanded="true" signature="32:341" ph="{...}" />
             <marker date="1567169619748" expanded="true" signature="73:211" ph="{...}" />
@@ -378,75 +464,195 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <marker date="1567169968625" expanded="true" signature="67:179" ph="{...}" />
-            <marker date="1567169968625" expanded="true" signature="104:177" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
-          <folding>
-            <marker date="1567170007470" expanded="true" signature="67:176" ph="{...}" />
-            <marker date="1567170007470" expanded="true" signature="103:174" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <marker date="1567170161436" expanded="true" signature="47:314" ph="{...}" />
-            <marker date="1567170161436" expanded="true" signature="76:312" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/Room.cs">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
-          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
-            <marker date="1567170196754" expanded="true" signature="6:79" ph="..." />
-            <marker date="1567170196754" expanded="true" signature="110:670" ph="{...}" />
-            <marker date="1567170196754" expanded="true" signature="146:668" ph="{...}" />
-            <marker date="1567170196754" expanded="true" signature="211:329" ph="{...}" />
+            <marker date="1567513034014" expanded="true" signature="67:179" ph="{...}" />
+            <marker date="1567513034014" expanded="true" signature="104:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Models/GraphSchedule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="27" lean-forward="true" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <marker date="1567516747980" expanded="true" signature="94:256" ph="{...}" />
+            <marker date="1567516747980" expanded="true" signature="152:254" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding>
+            <marker date="1567516751475" expanded="true" signature="94:315" ph="{...}" />
+            <marker date="1567516751475" expanded="true" signature="152:313" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/GraphClient.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <folding>
+            <marker date="1567516760765" expanded="false" signature="6:49" ph="..." />
+            <marker date="1567516760765" expanded="true" signature="101:284" ph="{...}" />
+            <marker date="1567516760765" expanded="true" signature="147:282" ph="{...}" />
+            <marker date="1567516760765" expanded="true" signature="207:276" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="33" lean-forward="true" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
+        <state relative-caret-position="-23">
+          <caret line="25" column="37" lean-forward="true" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
-            <marker date="1567169808481" expanded="true" signature="73:598" ph="{...}" />
-            <marker date="1567169808481" expanded="true" signature="109:169" ph="{...}" />
-            <marker date="1567169808481" expanded="true" signature="211:269" ph="{...}" />
-            <marker date="1567169808481" expanded="true" signature="308:463" ph="{...}" />
-            <marker date="1567169808481" expanded="true" signature="507:590" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="73:784" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="109:169" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="211:269" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="308:463" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="504:652" ph="{...}" />
+            <marker date="1567514323800" expanded="true" signature="693:776" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="33" lean-forward="true" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state relative-caret-position="176">
+          <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding>
-            <marker date="1567170466544" expanded="true" signature="6:63" ph="..." />
-            <marker date="1567170466544" expanded="true" signature="123:448" ph="{...}" />
-            <marker date="1567170466544" expanded="true" signature="169:446" ph="{...}" />
-            <marker date="1567170466544" expanded="true" signature="206:282" ph="{...}" />
-            <marker date="1567170466544" expanded="true" signature="322:440" ph="{...}" />
-            <marker date="1567170466544" expanded="true" signature="380:429" ph="{...}" />
+            <marker date="1567516943522" expanded="false" signature="6:126" ph="..." />
+            <marker date="1567516943522" expanded="true" signature="159:555" ph="{...}" />
+            <marker date="1567516943522" expanded="true" signature="210:553" ph="{...}" />
+            <marker date="1567516943522" expanded="true" signature="429:547" ph="{...}" />
+            <marker date="1567516943522" expanded="true" signature="487:536" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/d4/a31c3413/MethodBase.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/33E46F62-2720-44F4-B84B-BEBF6D7F0B71/44/2e1d1d72/Array.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="795" column="6" selection-start-line="795" selection-start-column="6" selection-end-line="795" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/98BF08E0-5E67-4E8E-8F12-6C6BE0F4299B/fd/7a5398dd/Expression.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="3570" column="6" selection-start-line="3570" selection-start-column="6" selection-end-line="3570" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="17" column="85" selection-start-line="17" selection-start-column="85" selection-end-line="17" selection-end-column="85" />
+          <folding>
+            <marker date="1567514995149" expanded="false" signature="6:118" ph="..." />
+            <marker date="1567514995149" expanded="true" signature="149:633" ph="{...}" />
+            <marker date="1567514995149" expanded="true" signature="197:631" ph="{...}" />
+            <marker date="1567514995149" expanded="true" signature="337:625" ph="{...}" />
+            <marker date="1567514995149" expanded="true" signature="406:483" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding>
+            <marker date="1567516754475" expanded="true" signature="6:69" ph="..." />
+            <marker date="1567516754475" expanded="true" signature="128:361" ph="{...}" />
+            <marker date="1567516754475" expanded="true" signature="178:359" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <folding>
+            <marker date="1567517860394" expanded="false" signature="6:79" ph="..." />
+            <marker date="1567517860394" expanded="true" signature="110:809" ph="{...}" />
+            <marker date="1567517860394" expanded="true" signature="166:807" ph="{...}" />
+            <marker date="1567517860394" expanded="true" signature="343:545" ph="{...}" />
+            <marker date="1567517860394" expanded="true" signature="406:534" ph="{...}" />
+            <marker date="1567517860394" expanded="true" signature="628:801" ph="{...}" />
+            <marker date="1567517860394" expanded="true" signature="691:790" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="17" column="42" selection-start-line="17" selection-start-column="42" selection-end-line="17" selection-end-column="42" />
+          <folding>
+            <marker date="1567514930564" expanded="false" signature="6:65" ph="..." />
+            <marker date="1567514930564" expanded="true" signature="96:663" ph="{...}" />
+            <marker date="1567514930564" expanded="true" signature="152:661" ph="{...}" />
+            <marker date="1567514930564" expanded="true" signature="387:655" ph="{...}" />
+            <marker date="1567514930564" expanded="true" signature="450:644" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <marker date="1567517942850" expanded="true" signature="6:248" ph="..." />
+            <marker date="1567517942850" expanded="true" signature="287:1630" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="323:1628" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="400:1381" ph="{...}" />
+            <marker date="1567517942850" expanded="false" signature="532:1100" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="611:1086" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="675:1068" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="755:867" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="921:1033" ph="{...}" />
+            <marker date="1567517942850" expanded="true" signature="1465:1622" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RooMate.Core/Domain/Room.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="43" column="28" lean-forward="true" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="28" />
+          <folding>
+            <marker date="1567518687861" expanded="false" signature="6:79" ph="..." />
+            <marker date="1567518687861" expanded="true" signature="110:1686" ph="{...}" />
+            <marker date="1567518687861" expanded="true" signature="146:1684" ph="{...}" />
+            <marker date="1567518687861" expanded="true" signature="211:412" ph="{...}" />
+            <marker date="1567518687861" expanded="true" signature="329:401" ph="{...}" />
+            <marker date="1567518687861" expanded="true" signature="695:1041" ph="{...}" />
+            <marker date="1567518687861" expanded="true" signature="820:1004" ph="{...}" />
+            <marker date="1567518687861" expanded="false" signature="1145:1468" ph="{...}" />
           </folding>
         </state>
       </provider>
