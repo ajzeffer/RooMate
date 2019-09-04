@@ -8,24 +8,21 @@ using RooMate.WebApi.Models;
 
 namespace RooMate.WebApi.Controllers
 {
+    [Route("/api/room")]
     [ApiController]
     public class RoomController : ControllerBase
     {
-        private IRoomService _roomService; 
+        private readonly IRoomService _roomService; 
         public RoomController(IRoomService roomService)
         {
             _roomService = roomService; 
         }
+        [HttpGet]
+        public ActionResult<RoomDto> Find(string roomId) => RoomDto.Create(_roomService.GetRoom(roomId));
+       
+        [HttpPost]
+        public ActionResult<RoomDto> Find(string roomId, DateTime targetMeetingTime, int meetingLength) => RoomDto.Create(_roomService.GetRoom(roomId ),targetMeetingTime, meetingLength);
         
-        public ActionResult<RoomDto> Get(string roomId) => RoomDto.Create(_roomService.GetRoom(roomId));
-        public ActionResult<RoomDto> Get(string roomId, DateTime targetMeetingTime, int meetingLength) => RoomDto.Create(_roomService.GetRoom(roomId ),targetMeetingTime, meetingLength);
-        public ActionResult<List<RoomListDto>> List()
-        {
-            var list =  new List<RoomListDto>();
-            var rooms = _roomService.GetRooms();
-            list.AddRange(rooms.Select(RoomListDto.Create));
-            return list;
-        }
         
     }
 }

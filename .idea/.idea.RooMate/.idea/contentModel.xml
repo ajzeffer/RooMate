@@ -84,6 +84,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
           <e p="RoomController.cs" t="Include" />
+          <e p="RoomsController.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
           <e p="RoomBaseDto.cs" t="Include" />
