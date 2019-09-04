@@ -2,11 +2,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RooMate.Core", "RooMate.Core\RooMate.Core.csproj", "{4201234A-C4C4-448B-826D-ECF9610329A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RooMate.WebApi", "RooMate.WebApi\RooMate.WebApi.csproj", "{CA5F7428-FF1C-4270-A3E0-FBA8EA0A1FF3}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RooMate.Infrastructure", "RooMate.Infrastructure\RooMate.Infrastructure.csproj", "{9272BE5B-1BE4-45C1-880B-D9A88B71E724}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RooMate.Core.Tests", "RooMate.Core.Tests\RooMate.Core.Tests.csproj", "{C856E56B-3A19-4083-B3CF-380972B0FDC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RooMate.WebApi", "RooMate.WebApi\RooMate.WebApi.csproj", "{F4A78EDB-838C-4D53-882E-3EB125172E3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,10 +18,6 @@ Global
 		{4201234A-C4C4-448B-826D-ECF9610329A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4201234A-C4C4-448B-826D-ECF9610329A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4201234A-C4C4-448B-826D-ECF9610329A8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CA5F7428-FF1C-4270-A3E0-FBA8EA0A1FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CA5F7428-FF1C-4270-A3E0-FBA8EA0A1FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CA5F7428-FF1C-4270-A3E0-FBA8EA0A1FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CA5F7428-FF1C-4270-A3E0-FBA8EA0A1FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9272BE5B-1BE4-45C1-880B-D9A88B71E724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9272BE5B-1BE4-45C1-880B-D9A88B71E724}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9272BE5B-1BE4-45C1-880B-D9A88B71E724}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -30,5 +26,9 @@ Global
 		{C856E56B-3A19-4083-B3CF-380972B0FDC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C856E56B-3A19-4083-B3CF-380972B0FDC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C856E56B-3A19-4083-B3CF-380972B0FDC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4A78EDB-838C-4D53-882E-3EB125172E3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4A78EDB-838C-4D53-882E-3EB125172E3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4A78EDB-838C-4D53-882E-3EB125172E3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4A78EDB-838C-4D53-882E-3EB125172E3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

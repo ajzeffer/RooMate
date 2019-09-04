@@ -1,10 +1,13 @@
+using System;
 using System.Collections.Generic;
+using RooMate.Core.Domain;
 
 namespace RooMate.Core.Contracts.Graph
 {
     public interface IGraphClient
     {
         IGraphRoomSchedules GetRoomSchedules();
+        IGraphSchedule GetRoomSchedule(string roomid);
     }
     public interface IGraphRoomSchedules {
         IList<IGraphSchedule>  value { get; set; }

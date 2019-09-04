@@ -9,5 +9,10 @@ namespace RooMate.Infrastructure.Providers.MsGraph
         {
             throw new NotImplementedException();
         }
+
+        public IGraphSchedule GetRoomSchedule(string roomid)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

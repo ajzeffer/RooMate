@@ -5,7 +5,7 @@ namespace RooMate.Core.Contracts
 {
     public interface     IRoomService
     {
-        IRoom GetRoom(IGraphSchedule schedule);
-        IList<IRoom> GetRooms(); 
+        IRoom GetRoom(string roomId);
+        IEnumerable<IRoom> GetRooms(); 
     }
 }

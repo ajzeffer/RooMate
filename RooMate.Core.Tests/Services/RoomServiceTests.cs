@@ -34,9 +34,9 @@ namespace RooMate.Core.Tests.Services
                     }
                 }
             };
-            moqRoomService.Setup(x => x.GetRoom(It.IsAny<GraphSchedule>())).Returns(Room.Create(graphSchedule));
+            moqRoomService.Setup(x => x.GetRoom(It.IsAny<string>())).Returns(Room.Create(graphSchedule));
             var roomService = moqRoomService.Object;
-            var room = roomService.GetRoom(new GraphSchedule());
+            var room = roomService.GetRoom("room-thelab@drivetime.com");
             Assert.True(room != null);
         }
         
@@ -44,9 +44,18 @@ namespace RooMate.Core.Tests.Services
         [Fact]
         public void RoomService_GetRooms_Success()
         {
-            var roomService = new RoomService();
+            var moqGraphClient = new Mock<IGraphClient>();
+            moqGraphClient.Setup(x => x.GetRoomSchedules()).Returns(new GraphRoomSchedules
+            {
+                value = new List<IGraphSchedule>()
+            });
+            var roomService = new RoomService(moqGraphClient.Object);
             var rooms = roomService.GetRooms();
             Assert.True(rooms != null);
         }
+
+  
+        
+        
     }
 }
