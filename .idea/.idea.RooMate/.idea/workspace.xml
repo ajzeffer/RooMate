@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/RooMate.WebApi.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/RooMate.WebApi.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Startup.cs" afterDir="false" />
-    </list>
+    <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+            <state relative-caret-position="67">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding>
                 <marker date="1567605052989" expanded="false" signature="6:210" ph="..." />
                 <marker date="1567605052989" expanded="true" signature="248:884" ph="{...}" />
@@ -311,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.RooMate.Core WEBAPI">
+  <component name="RunManager">
     <configuration name="RooMate.Core WEBAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RooMate.WebApi/RooMate.WebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
@@ -323,9 +316,6 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue=".NET Launch Settings Profile.RooMate.Core WEBAPI" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -344,12 +334,12 @@
       <workItem from="1567168171915" duration="2772000" />
       <workItem from="1567180567285" duration="241000" />
       <workItem from="1567511943466" duration="7389000" />
-      <workItem from="1567595950733" duration="7768000" />
+      <workItem from="1567595950733" duration="8085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18919000" />
+    <option name="totallyTimeSpent" value="19236000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +360,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31431535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39825898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -381,7 +371,7 @@
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.49727964" />
       <window_info anchor="bottom" id="REST Client" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.6071817" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.60684645" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.32883817" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -876,8 +866,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="11" column="19" lean-forward="true" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="67">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding>
             <marker date="1567605052989" expanded="false" signature="6:210" ph="..." />
             <marker date="1567605052989" expanded="true" signature="248:884" ph="{...}" />
