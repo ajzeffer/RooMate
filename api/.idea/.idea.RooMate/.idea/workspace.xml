@@ -1,87 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/RooMate.WebApi/Controllers/ApiBaseController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.idea.RooMate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.deps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Debug/netcoreapp2.2/RooMate.Core.Tests.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/RooMate.Core.Tests.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/RooMate.Core.Tests.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Roomate.Core.Tests.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/Roomate.Core.Tests.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core.Tests/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/RooMate.Core.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/RooMate.Core.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/RooMate.Core.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/RooMate.Core.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Core/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/RooMate.Infrastructure.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/RooMate.Infrastructure.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/RooMate.Infrastructure.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/RooMate.Infrastructure.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.Infrastructure/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/Startup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Core.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Core.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Core.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/bin/Debug/netcoreapp2.2/RooMate.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.dll" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/RooMate.WebApi.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/project.razor.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/Debug/netcoreapp2.2/project.razor.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/RooMate.WebApi.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/RooMate.WebApi.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/RooMate.WebApi.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/RooMate.WebApi.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RooMate.WebApi/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room-list/room-list.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room-list/room-list.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room-list/room-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room-list/room-list.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room/room.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room/room.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room/room.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/components/room/room.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/containers/home-container/home-container.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/containers/home-container/home-container.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/containers/home-container/home-container.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/containers/home-container/home-container.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/services/room.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../clients/roomate-ng-app/src/app/services/room.service.ts" afterDir="false" />
-    </list>
+    <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,19 +71,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Startup.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="216">
+              <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
               <folding>
-                <marker date="1567713187500" expanded="false" signature="6:368" ph="..." />
-                <marker date="1567713187500" expanded="true" signature="394:2244" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="421:2242" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="480:543" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="766:1367" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="1151:1264" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="1555:2236" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="1602:1679" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="1696:1899" ph="{...}" />
-                <marker date="1567713187500" expanded="true" signature="1982:2098" ph="/* Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), ... */" />
+                <marker date="1567713984017" expanded="false" signature="6:368" ph="..." />
+                <marker date="1567713984017" expanded="true" signature="394:2205" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="421:2203" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="480:543" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="766:1227" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="1415:2197" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="1462:1539" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="1556:1759" ph="{...}" />
+                <marker date="1567713984017" expanded="true" signature="1842:1958" ph="/* Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), ... */" />
               </folding>
             </state>
           </provider>
@@ -187,11 +106,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="368">
+              <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
               <folding>
                 <marker date="1567713624867" expanded="false" signature="6:143" ph="..." />
                 <marker date="1567713624867" expanded="true" signature="181:752" ph="{...}" />
@@ -203,15 +122,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/ApiBaseController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="16" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
+            <state relative-caret-position="207">
+              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <marker date="1567713620889" expanded="true" signature="6:64" ph="..." />
-                <marker date="1567713620889" expanded="true" signature="102:197" ph="{...}" />
-                <marker date="1567713620889" expanded="true" signature="174:195" ph="{...}" />
+                <marker date="1567713916345" expanded="true" signature="6:64" ph="..." />
+                <marker date="1567713916345" expanded="true" signature="102:179" ph="{...}" />
+                <marker date="1567713916345" expanded="true" signature="156:177" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -415,7 +334,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.RooMate.Core WEBAPI">
+  <component name="RunManager">
     <configuration name="RooMate.Core WEBAPI" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/RooMate.WebApi/RooMate.WebApi.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v2.2" />
@@ -427,9 +346,6 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue=".NET Launch Settings Profile.RooMate.Core WEBAPI" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -455,7 +371,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22716000" />
+    <option name="totallyTimeSpent" value="22718000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -468,7 +384,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2765568" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -825,7 +740,6 @@
           <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
           <folding>
             <marker date="1567686703987" expanded="false" signature="6:43" ph="..." />
-            <marker date="1567686703987" expanded="true" signature="76:663" ph="{...}" />
             <marker date="1567686703987" expanded="true" signature="125:661" ph="{...}" />
             <marker date="1567686703987" expanded="true" signature="309:329" ph="{...}" />
             <marker date="1567686703987" expanded="true" signature="430:655" ph="{...}" />
@@ -840,7 +754,6 @@
           <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
           <folding>
             <marker date="1567687035052" expanded="false" signature="6:96" ph="..." />
-            <marker date="1567687035052" expanded="true" signature="129:1098" ph="{...}" />
             <marker date="1567687035052" expanded="true" signature="160:816" ph="{...}" />
             <marker date="1567687035052" expanded="true" signature="349:495" ph="{...}" />
             <marker date="1567687035052" expanded="true" signature="849:1096" ph="{...}" />
@@ -855,7 +768,6 @@
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
           <folding>
             <marker date="1567686264987" expanded="false" signature="6:138" ph="..." />
-            <marker date="1567686264987" expanded="true" signature="190:5644" ph="{...}" />
             <marker date="1567686264987" expanded="true" signature="240:5642" ph="{...}" />
             <marker date="1567686264987" expanded="true" signature="300:4420" ph="{...}" />
             <marker date="1567686264987" expanded="true" signature="365:4409" ph="{...}" />
@@ -961,19 +873,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Startup.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="216">
+          <caret line="53" column="9" lean-forward="true" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
           <folding>
-            <marker date="1567713187500" expanded="false" signature="6:368" ph="..." />
-            <marker date="1567713187500" expanded="true" signature="394:2244" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="421:2242" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="480:543" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="766:1367" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="1151:1264" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="1555:2236" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="1602:1679" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="1696:1899" ph="{...}" />
-            <marker date="1567713187500" expanded="true" signature="1982:2098" ph="/* Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), ... */" />
+            <marker date="1567713984017" expanded="false" signature="6:368" ph="..." />
+            <marker date="1567713984017" expanded="true" signature="394:2205" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="421:2203" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="480:543" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="766:1227" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="1415:2197" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="1462:1539" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="1556:1759" ph="{...}" />
+            <marker date="1567713984017" expanded="true" signature="1842:1958" ph="/* Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), ... */" />
           </folding>
         </state>
       </provider>
@@ -1026,8 +937,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+        <state relative-caret-position="368">
+          <caret line="20" column="8" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <marker date="1567713624867" expanded="false" signature="6:143" ph="..." />
             <marker date="1567713624867" expanded="true" signature="181:752" ph="{...}" />
@@ -1040,12 +951,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/RooMate.WebApi/Controllers/ApiBaseController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="207">
+          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
           <folding>
-            <marker date="1567713620889" expanded="true" signature="6:64" ph="..." />
-            <marker date="1567713620889" expanded="true" signature="102:197" ph="{...}" />
-            <marker date="1567713620889" expanded="true" signature="174:195" ph="{...}" />
+            <marker date="1567713916345" expanded="true" signature="6:64" ph="..." />
+            <marker date="1567713916345" expanded="true" signature="102:179" ph="{...}" />
+            <marker date="1567713916345" expanded="true" signature="156:177" ph="{...}" />
           </folding>
         </state>
       </provider>
