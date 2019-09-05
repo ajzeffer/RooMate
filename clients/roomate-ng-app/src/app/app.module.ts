@@ -3,10 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RoomListComponent } from './room-list/room-list.component';
+import { HomeContainerComponent } from './containers/home-container/home-container.component';
+import { RoomContainerComponent } from './containers/room-container/room-container.component';
+import { RoomComponent } from './components/room/room.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RoomListComponent,
+    HomeContainerComponent,
+    RoomContainerComponent,
+    RoomComponent
   ],
   imports: [
     BrowserModule,
