@@ -1,1 +1,8 @@
-<p>room works!</p>
+
+<p>{{room.roomName}}</p>
+<span *ngIf="room && !room.isAvailableNow" class="label label-danger">
+    Taken
+</span>
+<span *ngIf="room && room.isAvailableNow" class="label label-success">
+    Available
+</span>

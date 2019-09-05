@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="59bb16de-e4ef-4338-a1ee-4b25a3db6fea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/Domain/RoomTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/RooMate.Core.Tests.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core.Tests/Services/RoomServiceTests.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/Graph/IGraphClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoom.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomSchedule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomScheduleItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Contracts/IRoomService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Domain/Room.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Domain/RoomSchedule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Domain/RoomScheduleTime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/RooMate.Core.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Core/Services/RoomService.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/GraphClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/MockGraphClient.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedule.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleItem.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphScheduleTime.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/Providers/MsGraph/Models/GraphSchedules.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.Infrastructure/RooMate.Infrastructure.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Controllers/RoomsController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Models/RoomBaseDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Models/RoomDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Models/RoomListDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Models/RoomScheduleDto.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Properties/launchSettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/RooMate.WebApi.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/Startup.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/appsettings.Development.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.WebApi/appsettings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/RooMate.sln.DotSettings.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RooMate/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,32 +92,6 @@
         </subPane>
       </pane>
       <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="RooMate.WebApi" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="RooMate.WebApi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Controllers" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="RooMate" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="RooMate.WebApi" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
         <option name="show-all-files" value="false" />
       </pane>
       <pane id="AssemblyExplorer" />
@@ -220,12 +149,12 @@
       <workItem from="1567180567285" duration="241000" />
       <workItem from="1567511943466" duration="7389000" />
       <workItem from="1567595950733" duration="8085000" />
-      <workItem from="1567683633565" duration="2356000" />
+      <workItem from="1567683633565" duration="3013000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21592000" />
+    <option name="totallyTimeSpent" value="22249000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,7 +175,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.31431535" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.31431535" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39825898" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />

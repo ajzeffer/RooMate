@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj",
+    "projectUniqueName": "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj",
     "projectName": "RooMate.Core",
-    "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj",
-    "outputPath": "/Users/adamzeffer/git/RooMate/RooMate.Core/obj/",
+    "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj",
+    "outputPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

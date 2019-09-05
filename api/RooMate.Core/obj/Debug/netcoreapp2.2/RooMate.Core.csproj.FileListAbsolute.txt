@@ -7,3 +7,12 @@
 /Users/adamzeffer/git/RooMate/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.AssemblyInfo.cs
 /Users/adamzeffer/git/RooMate/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.dll
 /Users/adamzeffer/git/RooMate/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.pdb
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.deps.json
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.dll
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/bin/Debug/netcoreapp2.2/RooMate.Core.pdb
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csprojAssemblyReference.cache
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.csproj.CoreCompileInputs.cache
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.AssemblyInfoInputs.cache
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.AssemblyInfo.cs
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.dll
+/Users/adamzeffer/git/RooMate/api/RooMate.Core/obj/Debug/netcoreapp2.2/RooMate.Core.pdb

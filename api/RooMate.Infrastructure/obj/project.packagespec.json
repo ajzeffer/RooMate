@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj",
+    "projectUniqueName": "/Users/adamzeffer/git/RooMate/api/RooMate.Infrastructure/RooMate.Infrastructure.csproj",
     "projectName": "RooMate.Infrastructure",
-    "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj",
-    "outputPath": "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/",
+    "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Infrastructure/RooMate.Infrastructure.csproj",
+    "outputPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Infrastructure/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netcoreapp2.2": {
         "projectReferences": {
-          "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj": {
-            "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj"
+          "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj": {
+            "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj"
           }
         }
       }

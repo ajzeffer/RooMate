@@ -27,6 +27,7 @@ namespace RooMate.WebApi
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "RooMate API", Version = "v1"}); });
             services.AddSingleton<IGraphClient, MockGraphClient>();
             services.AddSingleton<IRoomService, RoomService>();
+            
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -48,6 +49,7 @@ namespace RooMate.WebApi
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.),
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c => { c.SwaggerEndpoint("/swagger/v1/swagger.json", "RooMate API"); });
+            app.UseCors(builder => { builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin(); });
             app.UseMvc();
         }
     }

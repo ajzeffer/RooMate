@@ -6015,17 +6015,17 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/adamzeffer/git/RooMate/Roomate.Core.Tests/Roomate.Core.Tests.csproj",
-      "projectName": "Roomate.Core.Tests",
-      "projectPath": "/Users/adamzeffer/git/RooMate/Roomate.Core.Tests/Roomate.Core.Tests.csproj",
+      "projectUniqueName": "/Users/adamzeffer/git/RooMate/api/RooMate.Core.Tests/RooMate.Core.Tests.csproj",
+      "projectName": "RooMate.Core.Tests",
+      "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core.Tests/RooMate.Core.Tests.csproj",
       "packagesPath": "/Users/adamzeffer/.nuget/packages/",
-      "outputPath": "/Users/adamzeffer/git/RooMate/Roomate.Core.Tests/obj/",
+      "outputPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core.Tests/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/adamzeffer/.nuget/NuGet/NuGet.Config"
+        "/Users/adamzeffer/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -6036,11 +6036,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj": {
-              "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj"
+            "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj": {
+              "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Core/RooMate.Core.csproj"
             },
-            "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj": {
-              "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj"
+            "/Users/adamzeffer/git/RooMate/api/RooMate.Infrastructure/RooMate.Infrastructure.csproj": {
+              "projectPath": "/Users/adamzeffer/git/RooMate/api/RooMate.Infrastructure/RooMate.Infrastructure.csproj"
             }
           }
         }

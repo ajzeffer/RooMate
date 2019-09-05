@@ -8,7 +8,7 @@ namespace RooMate.WebApi.Controllers
 {
     [Route("/api/rooms")]
     [ApiController]
-    public class RoomsController : ControllerBase
+    public class RoomsController : ApiBaseController
     {
         private readonly IRoomService _roomService; 
         public RoomsController(IRoomService roomService)

@@ -84,6 +84,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="ApiBaseController.cs" t="Include" />
           <e p="RoomController.cs" t="Include" />
           <e p="RoomsController.cs" t="Include" />
         </e>
@@ -109,6 +110,6 @@
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2018.3/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_RooMate.1743366116.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.3/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_RooMate.-849079185.00" t="ExcludeRecursive" />
   </component>
 </project>

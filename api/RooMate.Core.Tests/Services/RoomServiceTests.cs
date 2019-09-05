@@ -18,6 +18,7 @@ namespace RooMate.Core.Tests.Services
             var moqRoomService = new Mock<IRoomService>();
             var graphSchedule = new GraphSchedule
             {
+                scheduleId = "room-reaction@drivetime.com",
                 scheduleItems = new List<IGraphScheduleItem>
                 {
                     new GraphScheduleItem
