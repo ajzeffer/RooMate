@@ -20,6 +20,8 @@ namespace RooMate.Core.Domain
             // build up the room with validation and addtl fields 
             return new Room
             {
+                RoomName = GetRoomName(schedule.scheduleId),
+                RoomId = schedule.scheduleId,
                 Schedule = RoomSchedule.Create(schedule)
             };
         }
@@ -47,5 +49,11 @@ namespace RooMate.Core.Domain
         
         public static bool isTimeBetween(DateTime start, DateTime end, DateTime toCheck) =>
             toCheck >= start && toCheck <= end;
+
+        public static string GetRoomName(string roomId)
+        {
+            var indexOfAt = roomId.IndexOf("@");
+            return indexOfAt > 0 ? roomId.Substring(0, indexOfAt) : roomId;
+        }
     }
 }

@@ -18,11 +18,10 @@ namespace RooMate.WebApi.Controllers
             _roomService = roomService; 
         }
         [HttpGet]
-        public ActionResult<RoomDto> Find(string roomId) => RoomDto.Create(_roomService.GetRoom(roomId));
+        public ActionResult<RoomDto> Get(string roomId) => RoomDto.Create(_roomService.GetRoom(roomId));
        
         [HttpPost]
-        public ActionResult<RoomDto> Find(string roomId, DateTime targetMeetingTime, int meetingLength) => RoomDto.Create(_roomService.GetRoom(roomId ),targetMeetingTime, meetingLength);
-        
+        public ActionResult<RoomScheduleDto> CheckAvailability(string roomId, DateTime targetMeetingTime, int meetingLength) => RoomScheduleDto.Create(_roomService.GetRoom(roomId ),targetMeetingTime, meetingLength);
         
     }
 }

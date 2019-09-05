@@ -67,6 +67,7 @@
         <e p="Providers" t="Include">
           <e p="MsGraph" t="Include">
             <e p="GraphClient.cs" t="Include" />
+            <e p="MockGraphClient.cs" t="Include" />
             <e p="Models" t="Include">
               <e p="GraphSchedule.cs" t="Include" />
               <e p="GraphScheduleItem.cs" t="Include" />
@@ -90,6 +91,7 @@
           <e p="RoomBaseDto.cs" t="Include" />
           <e p="RoomDto.cs" t="Include" />
           <e p="RoomListDto.cs" t="Include" />
+          <e p="RoomScheduleDto.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">

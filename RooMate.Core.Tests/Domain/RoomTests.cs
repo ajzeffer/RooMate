@@ -60,8 +60,28 @@ namespace RooMate.Core.Tests.Domain
             Assert.False(room.IsAvailable(DateTime.Parse("2019-09-03 13:00:00"),1));
         }
         #endregion
+        
+        
+        #region Room Name 
 
+        [Fact]
+        public void Room_GetRoomName_ValidRoomName()
+        {
+            var roomId = "Room-Revolution@drivetime.com";
+            var result = Room.GetRoomName(roomId); 
+            Assert.True(result == "Room-Revolution");
+        }
+        [Fact]
+        public void Room_GetRoomName_UnexpectedRoomName()
+        {
+            var roomId = "Room-Revolution_drivetime.com";
+            var result = Room.GetRoomName(roomId); 
+            Assert.True(result == "Room-Revolution_drivetime.com");
+        }
+        
+        #endregion 
 
+        #region // Builder Helpers // 
         private GraphSchedule buildGraphSchedule(List<Tuple<DateTime,DateTime>> meetingTimes)
         {
             var meetings = new List<IGraphScheduleItem>();
@@ -89,5 +109,7 @@ namespace RooMate.Core.Tests.Domain
                 }
             };
         }
+        
+        #endregion 
     }
 }

@@ -18,9 +18,21 @@ namespace RooMate.WebApi.Models
             IsAvailableNow = CheckAvailableNow(room);
         }
 
-        protected static IList<Tuple<string, string>> ConvertToSimpleSchedule(IEnumerable<IRoomScheduleItem> roomSched) =>
-            roomSched.Select(x => new Tuple<string, string>(x.start.dateTime, x.end.dateTime)).ToList();
+        protected static IList<SimpleSchedule> ConvertToSimpleSchedule(IEnumerable<IRoomScheduleItem> roomSched) =>
+            roomSched.Select(x => new SimpleSchedule(x.start.dateTime, x.end.dateTime)).ToList();
 
         protected static bool CheckAvailableNow(IRoom room) => room.IsAvailable(DateTime.Now, .5);
+    }
+
+    public class SimpleSchedule
+    {
+        public string start { get;   }
+        public string end { get;  }
+
+        public SimpleSchedule(string startDateTime, string endDateTime )
+        {
+            start = startDateTime;
+            end = endDateTime;
+        }
     }
 }

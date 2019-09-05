@@ -25,7 +25,7 @@ namespace RooMate.WebApi
         {
             // Register the Swagger generator, defining 1 or more Swagger documents
             services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "RooMate API", Version = "v1"}); });
-            services.AddSingleton<IGraphClient, GraphClient>();
+            services.AddSingleton<IGraphClient, MockGraphClient>();
             services.AddSingleton<IRoomService, RoomService>();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }

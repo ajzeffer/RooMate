@@ -6,9 +6,8 @@ namespace RooMate.WebApi.Models
 {
     public class RoomDto : RoomBaseDto
     {
-        public bool IsAvailableAtTime { get; private set; }
-        public DateTime RequestedTime { get; private set; }
-        public IList<Tuple<string, string>> SimpleSchedule { get;  private set; }
+
+        public IList<SimpleSchedule> SimpleSchedule { get;  private set; }
 
         private RoomDto(IRoom room) : base(room)
         {
@@ -19,15 +18,6 @@ namespace RooMate.WebApi.Models
         {
             return new RoomDto(room)
             {
-                SimpleSchedule = ConvertToSimpleSchedule(room.Schedule.ScheduleItems)
-            };
-        }
-        public static RoomDto Create(IRoom room, DateTime requestedTime, int meetingLength)
-        {
-            return new RoomDto(room)
-            {
-                RequestedTime = requestedTime,
-                IsAvailableAtTime = room.IsAvailable(requestedTime, meetingLength),
                 SimpleSchedule = ConvertToSimpleSchedule(room.Schedule.ScheduleItems)
             };
         }
