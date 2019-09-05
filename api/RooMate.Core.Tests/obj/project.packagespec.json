@@ -1,0 +1,66 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/adamzeffer/git/RooMate/RooMate.Core.Tests/RooMate.Core.Tests.csproj",
+    "projectName": "RooMate.Core.Tests",
+    "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Core.Tests/RooMate.Core.Tests.csproj",
+    "outputPath": "/Users/adamzeffer/git/RooMate/RooMate.Core.Tests/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.2"
+    ],
+    "frameworks": {
+      "netcoreapp2.2": {
+        "projectReferences": {
+          "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj": {
+            "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Core/RooMate.Core.csproj"
+          },
+          "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj": {
+            "projectPath": "/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/RooMate.Infrastructure.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.2": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[16.0.1, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.2.0, )",
+          "autoReferenced": true
+        },
+        "Moq": {
+          "target": "Package",
+          "version": "[4.13.0, )"
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.4.0, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

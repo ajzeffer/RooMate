@@ -1,0 +1,12 @@
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.deps.json
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.dll
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.dll
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/bin/Debug/netcoreapp2.2/RooMate.Core.pdb
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.AssemblyInfoInputs.cache
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.AssemblyInfo.cs
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csproj.CopyComplete
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.dll
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.pdb
+/Users/adamzeffer/git/RooMate/RooMate.Infrastructure/obj/Debug/netcoreapp2.2/RooMate.Infrastructure.csprojAssemblyReference.cache
